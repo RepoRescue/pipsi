@@ -1,0 +1,11 @@
+.DS_Store
+*.pyc
+*.pyo
+dist
+build
+*.egg
+*.egg-info
+.tox/
+.env/
+.cache/
+.pytest_cache/

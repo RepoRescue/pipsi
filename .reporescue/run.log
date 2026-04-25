@@ -1,0 +1,68 @@
+=== usability_validate ===
+Collecting mdurl~=0.1 (from markdown-it-py>=2.2.0->rich>=9.10.0->httpie)
+  Using cached mdurl-0.1.2-py3-none-any.whl.metadata (1.6 kB)
+Using cached httpie-3.2.4-py3-none-any.whl (127 kB)
+Using cached charset_normalizer-3.4.7-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (215 kB)
+Using cached defusedxml-0.7.1-py2.py3-none-any.whl (25 kB)
+Using cached multidict-6.7.1-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (254 kB)
+Using cached pygments-2.20.0-py3-none-any.whl (1.2 MB)
+Using cached requests-2.33.1-py3-none-any.whl (64 kB)
+Using cached idna-3.13-py3-none-any.whl (68 kB)
+Using cached urllib3-2.6.3-py3-none-any.whl (131 kB)
+Using cached certifi-2026.4.22-py3-none-any.whl (135 kB)
+Using cached requests_toolbelt-1.0.0-py2.py3-none-any.whl (54 kB)
+Using cached PySocks-1.7.1-py3-none-any.whl (16 kB)
+Using cached rich-15.0.0-py3-none-any.whl (310 kB)
+Using cached markdown_it_py-4.0.0-py3-none-any.whl (87 kB)
+Using cached mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+Using cached setuptools-82.0.1-py3-none-any.whl (1.0 MB)
+Installing collected packages: urllib3, setuptools, PySocks, Pygments, multidict, mdurl, idna, defusedxml, charset-normalizer, certifi, requests, markdown-it-py, rich, requests-toolbelt, httpie
+
+Successfully installed PySocks-1.7.1 Pygments-2.20.0 certifi-2026.4.22 charset-normalizer-3.4.7 defusedxml-0.7.1 httpie-3.2.4 idna-3.13 markdown-it-py-4.0.0 mdurl-0.1.2 multidict-6.7.1 requests-2.33.1 requests-toolbelt-1.0.0 rich-15.0.0 setuptools-82.0.1 urllib3-2.6.3
+  Linked script /tmp/pipsi-validate-24i6zhkw/bin/http
+  Linked script /tmp/pipsi-validate-24i6zhkw/bin/httpie
+  Linked script /tmp/pipsi-validate-24i6zhkw/bin/https
+Done.
+STDERR: 
+[notice] A new release of pip is available: 25.3 -> 26.0.1
+[notice] To update, run: /tmp/pipsi-validate-24i6zhkw/venvs/httpie/bin/python -m pip install --upgrade pip
+
+
+$ /tmp/pipsi-clean/bin/pipsi uninstall --yes httpie
+The following paths will be removed:
+  /tmp/pipsi-validate-24i6zhkw/venvs/httpie
+  /tmp/pipsi-validate-24i6zhkw/bin/http
+  /tmp/pipsi-validate-24i6zhkw/bin/httpie
+  /tmp/pipsi-validate-24i6zhkw/bin/https
+
+Done!
+
+
+USABLE
+
+=== scenario_validate ===
+    /tmp/pipsi-bootstrap-m07pamg1/bin/httpie
+    /tmp/pipsi-bootstrap-m07pamg1/bin/https
+
+[manifest] wrote /tmp/pipsi-bootstrap-m07pamg1/bootstrap_manifest.json
+[pipsi] uninstall --yes httpie
+The following paths will be removed:
+  /tmp/pipsi-bootstrap-m07pamg1/venvs/httpie
+  /tmp/pipsi-bootstrap-m07pamg1/bin/http
+  /tmp/pipsi-bootstrap-m07pamg1/bin/httpie
+  /tmp/pipsi-bootstrap-m07pamg1/bin/https
+
+Done!
+
+[pipsi] uninstall --yes cookiecutter
+The following paths will be removed:
+  /tmp/pipsi-bootstrap-m07pamg1/venvs/cookiecutter
+  /tmp/pipsi-bootstrap-m07pamg1/bin/cookiecutter
+
+Done!
+
+[pipsi] list
+There are no scripts installed through pipsi
+
+
+SCENARIO_PASS — pipsi as a dev-bootstrap tool works end-to-end
